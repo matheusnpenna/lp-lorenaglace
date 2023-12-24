@@ -27,25 +27,33 @@
 
   <body class="page-home">
     <nav id="inicio">
-      <div class="container d-flex align-items-center justify-content-between">
-        <div class="d-flex align-items-center">
-          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-facebook"></i></a>
-          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-instagram"></i></a>
-          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-email"></i></a>
-          <a href="/facebook" class="text-decoration-none text-dark"><i class="icon-whatsapp"></i></a>
+      <div class="mobile-nav d-flex d-lg-none justify-content-between py-3">
+        <a href="#inicio" class="text-decoration-none"><img width="62.043" height="64.62" src="/assets/img/logo.svg" alt="" /></a>
+        <button class="btn btn-menu">
+          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon svg-inline--fa fa-bars fa-fw" data-v-fc2bf950="" data-v-ee2a5494=""><path fill="currentColor" d="M0 88C0 74.75 10.75 64 24 64H424C437.3 64 448 74.75 448 88C448 101.3 437.3 112 424 112H24C10.75 112 0 101.3 0 88zM0 248C0 234.7 10.75 224 24 224H424C437.3 224 448 234.7 448 248C448 261.3 437.3 272 424 272H24C10.75 272 0 261.3 0 248zM424 432H24C10.75 432 0 421.3 0 408C0 394.7 10.75 384 24 384H424C437.3 384 448 394.7 448 408C448 421.3 437.3 432 424 432z" data-v-fc2bf950="" class=""></path></svg>
+        </button>
+      </div>
+      <div class="container">
+        <div class="d-none d-lg-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-facebook"></i></a>
+            <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-instagram"></i></a>
+            <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-email"></i></a>
+            <a href="/facebook" class="text-decoration-none text-dark"><i class="icon-whatsapp"></i></a>
+          </div>
+    
+          <div class="d-flex align-items-center justify-content-between flex-fill px-5">
+            <a href="#inicio" class="nav-item text-decoration-none">Inicio</a>
+            <a href="#section-white" class="nav-item text-decoration-none">Quem sou eu</a>
+            <a href="#inicio" class="text-decoration-none"><img width="62.043" height="64.62" src="/assets/img/logo.svg" alt="" /></a>
+            <a href="https://blog.lorenaglace.com.br" class="nav-item text-decoration-none">Blog</a>
+            <a href="#section-blog" class="nav-item text-decoration-none">Receitas</a>
+          </div>
+    
+          <a href="" class="btn btn-primary">
+            Agende sua consulta
+          </a>
         </div>
-  
-        <div class="d-flex align-items-center justify-content-between flex-fill px-5">
-          <a href="#inicio" class="nav-item text-decoration-none">Inicio</a>
-          <a href="#section-white" class="nav-item text-decoration-none">Quem sou eu</a>
-          <a href="#inicio" class="text-decoration-none"><img width="62.043" height="64.62" src="/assets/img/logo.svg" alt="" /></a>
-          <a href="https://blog.lorenaglace.com.br" class="nav-item text-decoration-none">Blog</a>
-          <a href="#section-blog" class="nav-item text-decoration-none">Receitas</a>
-        </div>
-  
-        <a href="" class="btn btn-primary">
-          Agende sua consulta
-        </a>
       </div>
     </nav>
     <header class="py-5">
@@ -71,37 +79,44 @@
     <section id="section-white" class="py-5">
       <div class="container position-relative py-5 mb-5">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 text-center d-lg-none">
             <h6 class="fw-lighter mb-4">Olá! sou a</h6>
             <h1 class="fw-bolder mb-4">Lorena Glace</h1>
+            <img class="img-fluid mb-4" width="290" height="293.82" src="./assets/img/compositions/section-2.svg" alt="Lorena Glace">
+          </div>
+          <div class="col-lg-6">
+            <h6 class="d-none d-lg-block fw-lighter mb-4">Olá! sou a</h6>
+            <h1 class="d-none d-lg-block fw-bolder mb-4">Lorena Glace</h1>
             <p class="mb-4">
               Lorem ipsum dolor sit amet consectetur. Tempus massa nibh aliquam tristique viverra. Sit semper lacinia mauris purus molestie. Enim lectus venenatis morbi pharetra in. Sed ut sit ullamcorper eu amet pulvinar cras iaculis. Blandit elementum diam eu justo. Enim etiam ac vulputate volutpat velit. Ut vel odio quis lectus. Tincidunt et dolor viverra id mi in auctor risus diam. Fermentum nec non nec pulvinar leo in viverra sit. Convallis egestas rhoncus mauris est turpis mus faucibus blandit. Vitae nulla orci id tristique nec vestibulum risus purus.
               <br />
               <br />
               Nisi orci sapien urna iaculis. Elementum non vitae semper quis tincidunt egestas habitant vitae. Feugiat ac vitae justo leo scelerisque ipsum ante consequat. Semper enim nec tellus leo ut fermentum ac. Vitae molestie eget vitae gravida. 
             </p>
-            <button class="btn btn-primary">
-              Agende sua consulta
-            </button>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <button class="btn btn-primary">
+                Agende sua consulta
+              </button>
+            </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 d-none d-lg-block">
             <img class="d-none d-lg-block img-desktop" width="491.558" height="498.04" src="./assets/img/compositions/section-2.svg" alt="Lorena Glace">
-            <img class="d-lg-none me-n5" width="290" height="293.82" src="./assets/img/compositions/section-2.svg" alt="Lorena Glace">
           </div>
         </div>
       </div>
       <div class="container py-5 mb-5">
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="img-fluid" width="339" height="515" src="./assets/img/compositions/section-3.webp" alt="Lorena em Atendimento" />
+        <div class="row justify-content-center justify-content-lg-start">
+          <div class="col-lg-4 text-center text-lg-start">
+            <h3 class="d-lg-none mb-4">Minha consulta</h3>
+            <img class="img-fluid mb-4 mb-lg-0" width="339" height="515" src="./assets/img/compositions/section-3.webp" alt="Lorena em Atendimento" />
           </div>
-          <div class="col-lg-8 ps-0">
-            <h3>Minha consulta</h3>
+          <div class="col-lg-8 ps-lg-0">
+            <h3 class="d-none d-lg-block">Minha consulta</h3>
             <p class="mb-4">
               A minha consulta dura em média 1h a 1h30 e está dividida em 4 momentos.
             </p>
             <div class="row mb-3">
-              <div class="col-1">
+              <div class="col-2 col-lg-1">
                 <div class="dark-circle">1</div>
               </div>
               <div class="col-9">
@@ -111,7 +126,7 @@
               </div>
             </div>
             <div class="row mb-3">
-              <div class="col-1">
+              <div class="col-2 col-lg-1">
                 <div class="dark-circle">2</div>
               </div>
               <div class="col-9">
@@ -121,7 +136,7 @@
               </div>
             </div>
             <div class="row mb-3">
-              <div class="col-1">
+              <div class="col-2 col-lg-1">
                 <div class="dark-circle">3</div>
               </div>
               <div class="col-9">
@@ -131,7 +146,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-2 col-lg-1">
                 <div class="dark-circle">4</div>
               </div>
               <div class="col-9">
@@ -150,7 +165,7 @@
         <h3 class="text-center mb-5">Planos</h3>
         <div class="row">
           <div class="col-lg-4">
-            <div class="plan-card">
+            <div class="plan-card mb-4 mb-lg-0">
               <div class="text-center">
                 <img class="plan-img img-fluid mb-4" src="./assets/img/compositions/plan-1.webp" alt="Consulta Nutricional">
               </div>
@@ -166,7 +181,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="plan-card">
+            <div class="plan-card mb-4 mb-lg-0">
               <div class="text-center">
                 <img class="plan-img img-fluid mb-4" src="./assets/img/compositions/plan-2.webp" alt="Acompanhamento Trimestral">
               </div>
@@ -252,7 +267,7 @@
                 <i class="icon-quotes-down down"></i>
                 <div class="row align-items-center">
                   <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/placeholders/testemonie-1.png" alt="">
+                    <img class="img-fluid mb-4 mb-lg-0" src="assets/img/placeholders/testemonie-1.png" alt="">
                   </div>
                   <div class="col-lg-8 ps-5">
                     <h5>Maria Silva</h5>
@@ -272,7 +287,7 @@
                 <i class="icon-quotes-down down"></i>
                 <div class="row align-items-center">
                   <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/placeholders/testemonie-1.png" alt="">
+                    <img class="img-fluid mb-4 mb-lg-0" src="assets/img/placeholders/testemonie-1.png" alt="">
                   </div>
                   <div class="col-lg-8 ps-5">
                     <h5>Maria Silva</h5>
@@ -313,17 +328,22 @@
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="row align-items-center blog-card">
-              <div class="col-lg-4">
-                <img class="img-fluid" src="assets/img/placeholders/blog.png" alt="Blog da lorena">
+              <div class="col-lg-4 text-center text-lg-start">
+                <img class="d-lg-none mb-4" width="62.043" height="64.62" src="/assets/img/logo.svg" alt="">
+                <div class="d-lg-none mb-3">DICAS E RECEITAS</div>
+                <h3 class="d-lg-none mb-5">Blog da Lorena</h3>
+                <img class="img-fluid mb-4 mb-lg-0" src="assets/img/placeholders/blog.png" alt="Blog da lorena">
               </div>
               <div class="col-lg-8">
-                <img class="mb-4" width="62.043" height="64.62" src="/assets/img/logo.svg" alt="">
-                <div class="mb-3">DICAS E RECEITAS</div>
-                <h3 class="mb-5">Blog da Lorena</h3>
+                <img class="d-none d-lg-block mb-4" width="62.043" height="64.62" src="/assets/img/logo.svg" alt="">
+                <div class="d-none d-lg-block mb-3">DICAS E RECEITAS</div>
+                <h3 class="d-none d-lg-block mb-5">Blog da Lorena</h3>
                 <p class="mb-5">Lorem ipsum dolor sit amet consectetur. Posuere nisi nam gravida imperdiet purus duis libero ultricies ultrices. Nulla imperdiet arcu urna pharetra. Mi sed eu in proin bibendum. Elementum nisi orci sagittis pellentesque pharetra fermentum pulvinar. Senectus porta cras consequat praesent. Facilisi habitasse ut amet at scelerisque risus nisl viverra risus. Arcu sollicitudin varius at nisl commodo.</p>
-                <a href="https://blog.lorenaglace.com.br" class="btn btn-primary">
-                  Ir para o Blog
-                </a>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                  <a href="https://blog.lorenaglace.com.br" class="btn btn-primary">
+                    Ir para o Blog
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -452,11 +472,17 @@
       <div class="container py-5">
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-4">
-            <div class="d-flex flex-wrap align-items-center mb-4">
+            <div class="d-flex d-lg-none flex-wrap align-items-center justify-content-center mb-4">
+              <a href="#inicio" class="text-decoration-none me-4">Inicio</a>
+              <a href="#section-white" class="text-decoration-none me-4">Quem sou eu</a>
+              <a href="https://blog.lorenaglace.com.br" class="text-decoration-none me-4">Blog</a>
+              <a href="#section-blog" class="text-decoration-none">Receitas</a>
+            </div>
+            <div class="d-none d-lg-flex flex-wrap align-items-center mb-4">
               <a href="#inicio" class="text-decoration-none me-lg-4">Inicio</a>
               <a href="#section-white" class="text-decoration-none me-lg-4">Quem sou eu</a>
             </div>
-            <div class="d-flex flex-wrap align-items-center">
+            <div class="d-none d-lg-flex flex-wrap align-items-center">
               <a href="https://blog.lorenaglace.com.br" class="text-decoration-none me-lg-4">Blog</a>
               <a href="#section-blog" class="text-decoration-none">Receitas</a>
             </div>
@@ -465,7 +491,7 @@
             <a href="#inicio" class="text-decoration-none"><img width="143" height="149.368" src="/assets/img/logo-text.svg" alt="Logo Lorena Glace" /></a>
           </div>
           <div class="col-lg-4 text-right">
-            <div class="d-flex align-items-center justify-content-end">
+            <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
               <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-facebook"></i></a>
               <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-instagram"></i></a>
               <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-email"></i></a>
@@ -475,6 +501,37 @@
         </div>
       </div>
     </footer>
+
+    <aside class="d-lg-none">
+      <div class="d-flex justify-content-end px-3 pt-4 mb-4">
+        <div class="flex-fill"><h5 class="text-light m-0 p-0">Menu</h5></div>
+        <button class="btn btn-close m-0 p-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <rect y="14.1421" width="20" height="3" transform="rotate(-45 0 14.1421)" fill="white"/>
+            <rect x="2.12132" width="20" height="3" transform="rotate(45 2.12132 0)" fill="white"/>
+          </svg>
+        </button>
+      </div>
+      <hr />
+      <div class="d-flex flex-column px-3">
+        <a href="#inicio" class="text-decoration-none mb-4 me-lg-4">Inicio</a>
+        <a href="#section-white" class="text-decoration-none mb-4 me-lg-4">Quem sou eu</a>
+        <a href="https://blog.lorenaglace.com.br" class="text-decoration-none mb-4 me-lg-4">Blog</a>
+        <a href="#section-blog" class="text-decoration-none mb-4">Receitas</a>
+        <a href="" class="btn btn-primary">
+          Agende sua consulta
+        </a>
+      </div>
+      <hr />
+      <div class="px-3 pb-4">
+        <div class="d-flex align-items-center justify-content-end">
+          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-facebook"></i></a>
+          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-instagram"></i></a>
+          <a href="/facebook" class="text-decoration-none text-dark me-3"><i class="icon-email"></i></a>
+          <a href="/facebook" class="text-decoration-none text-dark"><i class="icon-whatsapp"></i></a>
+        </div>
+      </div>
+    </aside>
 
     <script defer src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/glider.min.js?v=0.0.0.0"></script>
