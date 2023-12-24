@@ -42,6 +42,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+    }
+    .btn-close {
+      background-image: none;
     }
 
     header {
@@ -357,7 +361,7 @@
   }
 
   aside {
-    background: #463157;
+    background: #51615E;
     position: fixed;
     top: 0;
     right: 0;
