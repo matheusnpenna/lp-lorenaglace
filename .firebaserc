@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "lorenaglace-b7358"
+  },
+  "targets": {
+    "lorenaglace-b7358": {
+      "hosting": {
+        "lorenaglace": [
+          "lorenaglace"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
