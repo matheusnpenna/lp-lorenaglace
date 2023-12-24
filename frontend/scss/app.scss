@@ -1,0 +1,9 @@
+$primary: #A7964C !default;
+$dark: #112F36 !default;
+
+$enable-negative-margins: true;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import "globals";
+@import "page-home";
